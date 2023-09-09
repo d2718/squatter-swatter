@@ -1,0 +1,15 @@
+[package]
+name = "squatter-swatter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+crates_io_api = { version = "0.8.1", default-features = false, features = ["rustls"] }
+csv = "1.2.2"
+eyre = "0.6.8"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.105"
+tokio = { version = "1.32.0", features = ["rt", "macros", "process"] }
+tokio-stream = "0.1.14"
