@@ -1,0 +1,7 @@
+{
+  "work_dir": "/run/user/1000/ss",
+  "user_file": "users_sorted.csv",
+  "output_file": "output.csv",
+  "untar_exec": "/usr/bin/tar",
+  "tokei_exec": "/home/dan/.cargo/bin/tokei"
+}
